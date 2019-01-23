@@ -1,0 +1,109 @@
+body{
+    background-image: url(roket.jpg);
+}
+h3{
+    color: rgba(255, 255, 255, 0.685);
+    font-family: 'Helvetica', sans-serif;
+    font-size: 30px;
+}
+.OP{
+    max-width: 450px;
+    font-family: 'Helvetica', sans-serif;
+}
+.OP fieldset{
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    margin: 0px opx 10px opx;
+    border: 1px solid rgb(121, 240, 248);
+    padding: 20px;
+    background: rgba(255, 255, 255, 0.411);
+    box-shadow: inset 0px 0px 15px rgb(121, 240, 248) 
+    -moz-box-shadow: inset 0px 0px 15px rgb(121, 240, 248);
+    -webkit-box-shadow: inset 0px 0px 15px rgb(121, 240, 248);
+}
+.OP label{
+    display: block;
+    margin-bottom: 10px;
+}
+.OP textarea{
+    width: 250px;
+    heigt: 100px;
+}
+.OP textarea{
+    border-radius: 3px;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border: 1px solid rgb(121, 240, 248);
+    outline: none;
+    color: black;
+    padding: 5px, 8px, 5px, 8px;
+    margin: 0px opx 10px opx;
+    box-shadow: inset 1px 1px 4px rgb(121, 240, 248);
+    -moz-box-shadow: inset 0px 0px 15px rgb(121, 240, 248);
+    -webkit-box-shadow: inset1px 1px 4px rgb(121, 240, 248);
+    background: rgba(255, 255, 255, 0.589);
+    width: 50%;
+}
+.OP input[type=submit],
+.OP input[type=button]{
+    background: darkgray;
+    border: 1px solid darkgray;
+    padding: 5px 15px 5px 15px;
+    color: rgb(5, 24, 24);
+    box-shadow: inset -1px -1px 3px darkgray;
+    -mow-boz-shadow: inset -1px -1px 3px darkgray;
+    -webkit-box-shadow: inset -1px -1px 3px darkgray;
+    border-radius: 3px;
+    border-radius: 3px;
+    -webkit-border-radius 3px;
+    -moz-border-radius: 3px;
+    font-weight: bold;
+}
+nav a{
+    text-decoration: none;
+}
+ul br a{
+    font-family: 'Helvetica', sans-serif;
+}
+
+/* pendaftar */ 
+.table1{
+    font-family: sans-serif;
+    color: white;
+    border-collapse: collapse;
+    width: 50%;
+    border: 1px solid #f2f5f7; 
+}
+.table tr th{
+    background: white;
+    color: black;
+    font-weight: normal;
+}
+.table1, th, td{
+    padding: 8px 20px;
+    text-align: center;
+}
+.table1 tr:hover{
+    background-color:darkgray;
+}
+.table tr:nth-child(even){
+    background-color: rgba(128, 128, 128, 0.877);
+}
+td a{
+    text-decoration: none;
+}
+.ad{
+    background-color: darkgray;
+    color: black;
+    box-shadow: 0 0 5px darkgray;
+    border: 15px solid darkgray;
+    font-family: 'Helvetica', sans-serif;
+}
+.total{
+    background-color: darkgray;
+    color: black;
+    box-shadow: 0 0 5px darkgray;
+    border: 10px solid darkgray;
+    text-decoration: none;
+    font-family: 'Arial Black', 'sans serif';
+}
